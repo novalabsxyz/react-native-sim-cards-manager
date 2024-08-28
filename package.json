@@ -49,6 +49,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/eslint-parser": "^7.18.2",
     "@commitlint/config-conventional": "^11.0.0",
     "@react-native-community/eslint-config": "^2.0.0",
     "@types/jest": "^27.4.1",
@@ -68,9 +70,7 @@
     "prettier": "2.5.1",
     "react": "17.0.2",
     "react-native": "0.67.3",
-    "typescript": "4.0.7",
-    "@babel/core": "^7.18.5",
-    "@babel/eslint-parser": "^7.18.2"
+    "typescript": "4.0.7"
   },
   "peerDependencies": {
     "react": "*",
@@ -87,5 +87,6 @@
     "extends": [
       "@commitlint/config-conventional"
     ]
-  }
+  },
+  "packageManager": "yarn@1.22.22"
 }
